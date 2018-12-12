@@ -189,7 +189,7 @@
     <div class="container mt-3">
         <div class="row mt-2">
             <div class="col-md-3 col-sm-6 mt-5" align="center">
-                <img src=<?php echo $Passport ?> width="200px" class="rounded-circle"><br>
+                <img src=<?php echo $Passport ?> width="200px" height="240px" class="rounded-circle"><br>
                 <a href="edit_userInfo.php?id= <?php echo $id ?> &username= <?php echo $Username ?>"><button class="btn btn-block">Edit Info</button></a><br>
                 <a href="password_changer.php?id= <?php echo $id ?> &username= <?php echo $Username ?>"><button class="btn btn-block">Change Password</button></a>
             </div>

@@ -188,7 +188,7 @@
         <div class="container mt-3">
             <div class="row mt-2">
                 <div class="col-md-3 col-sm-6 mt-5" align="center">
-                    <img src=<?php echo $Passport ?> width="200px" class="rounded-circle"><br>
+                    <img src=<?php echo $Passport ?> width="200px" height="240px" class="rounded-circle"><br>
                     <!-- <form action="edited.php" method="POST"> -->
                         <button class="btn btn-block" type="submit">Submit New Info</button></a><br>
                     <!-- </form> -->
