@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JustSearch/Reg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/dist/css/bootstrap.css" />
+    <script type="text/javascript" src="bootstrap/dist/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <form action="info.php" method="POST" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Surname: </td><td><input type="text" name="surname" placeholder="surname"></td>
+            </tr>
+            <tr>
+                <td>Firstname: </td><td><input type="text" name="firstname" placeholder="firstname"></td>
+            </tr>
+            <tr>
+                <td>Middlename: </td><td><input type="text" name="middlename" placeholder="middlename"></td>
+            </tr>
+            <tr>
+                <td>Username: </td><td><input type="text" name="username" placeholder="username"></td>
+            </tr>
+            <tr>
+                <td>Password: </td><td><input type="password" name="password" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password: </td><td><input type="password" name="conpassword" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td>Company's Name: </td><td><input type="text" name="companyName" placeholder="Name of Company"></td>
+            </tr>
+            <tr>
+                <td>Phone Number: </td><td><input type="text" name="mobile" placeholder="Mobile Number"></td>
+            </tr>
+            <tr>
+                <td>Category: </td>
+                <td><select name="category">
+                    <option value="Mechanic">Mechanic</option>
+                    <option value="Rewire">Rewire</option>
+                    <option value="Panel Beater">Panel Beater</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Specialization: </td><td><input type="text" name="spec"></td>
+            </tr>
+            <tr>
+                <td>Address: </td><td><input type="text" name="address" placeholder="Company's Address"></td>
+            </tr>
+            <tr>
+                <td>Email: </td><td><input type="email" name="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Passport: </td><td><input type="file" name="pix"></td>
+            </tr>
+            <tr><td><input type="reset"></td><td><input type="submit"></td></tr>
+            
+        </table>
+    </form><br><br>
+
+    <form action="dashboard.php" method="POST">
+        <input type="number" name="id" placeholder="userId" name="id">
+        <input type="password" name="pwd" placeholder="userId" name="pwd">
+        <input type="submit" value="signIn">
+    </form><br><br>
+
+    <form action="search.php" method="POST">
+        <input type="search" name="search" placeholder="search here">
+        <input type="submit" value="search">
+    </form>
+    
+</body>
+</html>
