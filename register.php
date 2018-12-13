@@ -206,8 +206,11 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">Username: </span>
                             </div>
-                            <input type="text" class="form-control" name="username" placeholder="e.g saka">
+                            <input type="text" class="form-control" id="user" name="username" placeholder="e.g saka">
                         </div>
+                        <?php if(isset($error)){?>
+                        <p id="error" class="text-danger"><?php echo $error ?></p>
+                        <?php }?>
                     </div>
                 </div>
                 <div class="row">
@@ -264,5 +267,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#user').keyup(function(){
+                // alert("Issues here?")
+                $.post('check.php',{ userr: $('#user').val() }, function(data){
+                    $('#error').html("* Username already exist");
+                });
+            });
+        })
+    </script>
 </body>
 </html>

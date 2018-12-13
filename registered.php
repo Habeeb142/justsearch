@@ -21,29 +21,36 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
    
     $connection = mysqli_connect("localhost","root","","justsearch_db");
 
-    if(move_uploaded_file($temp, $file)) {
-        $insert = mysqli_query($connection, "INSERT into justsearch_tb ( surname, firstname, middlename, username, password, companyName, mobile, category, specialization, address, email, passport) 
-        values ( '$sn', '$fn', '$mn', '$un', '$pwd', '$comName', '$mobile',' $category', '$spec', '$address', '$email', '$file' )");
+    if(isset($_SESSION['user_err'])){
+       echo "failure";
     }
 
-    $sql = "SELECT * from justsearch_tb WHERE username='$un' and mobile='$mobile' ";
-    $result = $connection->query($sql);
-    $q = mysqli_fetch_array($result);
+    else{
 
-    
-    if ($result->num_rows > 0) {
-        $userName = $q['username'];
-        $userId = $q['id'];
-        $reg = "Please proceed to login.";
-        include('register.php');
-    }
+            if(move_uploaded_file($temp, $file)) {
+                $insert = mysqli_query($connection, "INSERT into justsearch_tb ( surname, firstname, middlename, username, password, companyName, mobile, category, specialization, address, email, passport) 
+                values ( '$sn', '$fn', '$mn', '$un', '$pwd', '$comName', '$mobile',' $category', '$spec', '$address', '$email', '$file' )");
+            }
 
-    else {
-        include('register.php');
-    }
-        
-    mysqli_close($connection);
+                $sql = "SELECT * from justsearch_tb WHERE username='$un' and mobile='$mobile' ";
+                $result = $connection->query($sql);
+                $q = mysqli_fetch_array($result);
 
-}else echo "Please Register first"
+            
+            if ($result->num_rows > 0) {
+                $userName = $q['username'];
+                $userId = $q['id'];
+                $reg = "Please proceed to login.";
+                include('register.php');
+            }
+
+            else {
+                include('register.php');
+            }
+                
+            mysqli_close($connection);
+
+        }   
+} else echo "Please Register first"
 
 ?>
