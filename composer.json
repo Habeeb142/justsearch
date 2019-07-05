@@ -14,7 +14,7 @@
             "php-config": [
                 "short_open_tag=on",
                 "date.timezone=Europe/Vienna",
-                "newrelic.appname=php-test"
+                "newrelic.appname=justsearch"
             ],
             "engines": {
                 "php": "7.2.*",
