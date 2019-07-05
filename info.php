@@ -22,7 +22,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
     $email = $_POST['email'];
    
 
-    $connection = mysqli_connect("localhost","root","","justsearch_db");
+        $connection = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
 
     if(move_uploaded_file($temp, $file)) {
         $insert = mysqli_query($connection, "INSERT into justsearch_tb ( surname, firstname, middlename, username, password, companyName, mobile, category, specialization, address, email, passport) 
