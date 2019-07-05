@@ -13,7 +13,7 @@ if(isset($_SESSION['newSurname'])) {
     $newCompanyname = $_POST['newFirstname'];
 
     $id = $_SESSION['userId'];
-    $conn = mysqli_connect("localhost","root","","justsearch_db");
+        $conn = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
     $sql = "UPDATE justsearch_tb SET surname='$_SESSION[newSurname]', firstname='$newFirstname', middlename='$newMiddlename',
     username='$newUsername', specialization='$newSpecification', address='$newAddress', mobile='$newMobile', email='$newEmail',
     companyName='$newCompanyname'  WHERE id='$id'";
