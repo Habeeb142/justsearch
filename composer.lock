@@ -4351,11 +4351,7 @@
                     "dev-master": "3.0-dev"
                 }
             },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
+           
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -4414,11 +4410,7 @@
                     "dev-master": "3.0-dev"
                 }
             },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
+            
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -4471,12 +4463,7 @@
                 "branch-alias": {
                     "dev-master": "4.1-dev"
                 }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
+            }
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -4523,11 +4510,6 @@
                 "branch-alias": {
                     "dev-master": "3.1.x-dev"
                 }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4592,11 +4574,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
+          
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -4642,11 +4620,6 @@
                     "dev-master": "3.0.x-dev"
                 }
             },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -4686,12 +4659,7 @@
                 "branch-alias": {
                     "dev-master": "1.1-dev"
                 }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
+            }
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -4731,11 +4699,8 @@
                 "branch-alias": {
                     "dev-master": "3.0.x-dev"
                 }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
+            }
+           
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4781,11 +4746,8 @@
                 "branch-alias": {
                     "dev-master": "2.0-dev"
                 }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
+            }
+           
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
