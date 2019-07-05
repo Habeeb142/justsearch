@@ -18,7 +18,7 @@
             ],
             "engines": {
                 "php": "7.2.*",
-                "nginx": "1.4.*", 
+                "nginx": "1.4.*"
             },
             "compile": [
                 "echo $FOO"
