@@ -4,7 +4,7 @@
     <title>Register - JustSearch</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+
     <link rel="stylesheet" href="index.css">
 	<script type="text/javascript" src="bootstrap/dist/js/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
