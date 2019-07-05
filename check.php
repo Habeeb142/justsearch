@@ -2,7 +2,7 @@
     session_start();
     $value = $_POST['userr'];
    
-    $connection = mysqli_connect("localhost","root","","justsearch_db");
+       $connection = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
     $selector = "SELECT username from justsearch_tb where username = '$value'"; 
     $check = $connection->query($selector);
 
