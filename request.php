@@ -2,7 +2,7 @@
 $id = $_POST['id'];
 $password = $_POST['pwd'];
 
-$connection = mysqli_connect("localhost","root","","justsearch_db");
+    $connection = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
 $pass_word =  mysqli_query($connection, "SELECT * from justsearch_tb where id = '$id' or username = '$id'");
 $passCheck = mysqli_fetch_array($pass_word);
 $pass = $passCheck['password'];
