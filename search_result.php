@@ -161,7 +161,7 @@
     $search = $_POST['search'];
     $cat = $_POST['category'];
 
-    $connection = mysqli_connect("localhost","root","","justsearch_db");
+     $connection = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
     
     if($search=="") {
         $sql = "SELECT * from justsearch_tb where category like '%$cat%' ";
