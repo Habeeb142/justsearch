@@ -2,7 +2,7 @@
     "name": "Justsearch",
     "type": "project",
     "license": "MIT",
-    "homepage": "index.php",
+    "homepage": "https://github.com/codecov/codecov-php",
     "description": "project",
     "keywords": ["code coverage", "codecov", "coverage reports"],
     "authors": [
