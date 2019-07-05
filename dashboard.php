@@ -26,10 +26,10 @@
     <title>Dashboard - JustSearch</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+    
     <link rel="stylesheet" href="index.css">
-	<script type="text/javascript" src="bootstrap/dist/js/jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+	<https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
+    <https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js>
 	<script type="text/javascript" src="jquery3.3.1.js"></script>
 </head>
 <script>
