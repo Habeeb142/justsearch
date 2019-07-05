@@ -47,9 +47,9 @@ if(isset($_SESSION['newSurname'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="index.css">
-        <script type="text/javascript" src="bootstrap/dist/js/jquery-3.2.1.js"></script>
+       <script type="text/javascript" src="jquery3.3.1.js"></script>
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="jquery3.3.1.js"></script>
+        
     </head>
     <script>
         $(document).ready(function(){
