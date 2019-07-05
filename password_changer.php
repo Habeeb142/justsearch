@@ -1,7 +1,7 @@
 <?php session_start();
     $uname = $_SESSION['Username'];
     $uid = $_SESSION['userId'];
-    $conn = mysqli_connect("localhost", "root", "", "justsearch_db");
+        $conn = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
     $info = mysqli_query($conn, "SELECT * from justsearch_tb where username = '$uname' or id = '$uid'");
     $q = mysqli_fetch_array($info);
     $id = $q['id'];
