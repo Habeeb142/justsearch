@@ -19,8 +19,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
     $address = $_POST['address'];
     $email = $_POST['email'];
    
-    $connection = mysqli_connect("localhost","root","","justsearch_db");
-
+     $connection = mysqli_connect("remotemysql.com","1JTq39QISa","wO8zfGSyqY","1JTq39QISa");   
     if(isset($_SESSION['user_err'])){
        echo "failure";
     }
