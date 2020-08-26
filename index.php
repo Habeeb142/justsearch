@@ -10,7 +10,7 @@
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <script>
-if (navigator.geolocation) {
+if (navigator.geolocation) {alert();
       navigator.geolocation.watchPosition(function (position) {
           alert('lat:'+ position.coords.latitude.toString() + 'long:'+ position.coords.longitude.toString());
       });
