@@ -12,7 +12,7 @@
 <script>
 if (navigator.geolocation) {
       navigator.geolocation.watchPosition(function (position) {
-          alert('lat: '+ position.coords.latitude.toString(), 'long: '+ position.coords.longitude.toString())
+          alert('lat: '+ position.coords.latitude.toString() + ' long: '+ position.coords.longitude.toString())
       });
 }
 </script>
