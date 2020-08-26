@@ -12,8 +12,7 @@
 <script>
 if (navigator.geolocation) {
       navigator.geolocation.watchPosition(function (position) {
-          console.log('lat', position.coords.latitude.toString());
-          console.log('long', position.coords.longitude.toString());
+          alert('lat:'+ position.coords.latitude.toString() + 'long:'+ position.coords.longitude.toString());
       });
 </script>
 <script>
