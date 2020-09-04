@@ -10,11 +10,11 @@
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <script>
-// if (navigator.geolocation) {
-//       navigator.geolocation.watchPosition(function (position) {
-//           alert('lat: '+ position.coords.latitude.toString() + ' long: '+ position.coords.longitude.toString())
-//       });
-// }
+if (navigator.geolocation) {
+      navigator.geolocation.watchPosition(function (position) {
+          alert('lat: '+ position.coords.latitude.toString() + ' long: '+ position.coords.longitude.toString())
+      });
+}
 </script>
 <script>
     function appear(){
